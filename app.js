@@ -97,6 +97,7 @@ app.put('/car/:id', (req,res) => {
     });
 });
 
+// delete car
 app.delete('/car/:id', (req,res) => {
     Car.findOneAndRemove({
         _id: req.params.id
