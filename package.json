@@ -1,0 +1,24 @@
+{
+  "name": "mongoose-crud-example",
+  "version": "1.0.0",
+  "description": "Example project demonstrating the use of ExpressJS as a backend server with CRUD operations on a NoSQL MongoDB database with the mongoose API.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LSchultebraucks/mongoose-crud-example.git"
+  },
+  "author": "Lasse Schultebraucks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LSchultebraucks/mongoose-crud-example/issues"
+  },
+  "homepage": "https://github.com/LSchultebraucks/mongoose-crud-example#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.8"
+  }
+}
